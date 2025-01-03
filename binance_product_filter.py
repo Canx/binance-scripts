@@ -1,4 +1,5 @@
 import httpx
+import argparse
 
 def get_products_by_tags(tags):
     """
@@ -73,8 +74,6 @@ def get_all_tags():
         print(f"Error connecting to Binance API: {e}")
         return set()
 
-import httpx
-import argparse
 
 def get_products_by_tags(tags):
     """
